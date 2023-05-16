@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+/* Здесь header */
+
+.header_section {
+  background-image: url(img/header_section.png);
+  background-position: center;
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.header_title {
+  max-width: 680px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #ffffff;
+  padding-top: 217px;
+  display: flex;
+  align-items: center;
+}
+span {
+  font-weight: 700;
+}
+.header_text {
+  max-width: 500px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.header_button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #9c0332;
+  border-radius: 30px;
+  width: 234px;
+  height: 48px;
+}
+
+.game_section {
+  background-image: url(img/game_section.png);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.game_containter {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.game_containter__list {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  gap: 32px;
+  align-self: flex-start;
+}
+.game {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  border-radius: 16px;
+  background-position: center;
+  width: 379px;
+  height: 300px;
+  padding: 32px;
+}
+.game_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  align-items: flex-end;
+}
+.game_1 {
+  background-image: url(img/game_1.png);
+}
+.game_2 {
+  background-image: url(img/game_2.png);
+}
+.game_3 {
+  background-image: url(img/game_3.png);
+}
+@import 'mobile';
